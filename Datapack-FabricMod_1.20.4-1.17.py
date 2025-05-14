@@ -475,7 +475,7 @@ def replace_current_values(modid, dest_folder, minecraft_version, fabric_version
 def replace_values(dest_folder, modid, mod_name):
     
     # Load the Excel workbook
-    workbook = openpyxl.load_workbook('versions.xlsx')
+    workbook = openpyxl.load_workbook('versions-17.xlsx')
 
     # Select the active sheet
     sheet = workbook.active
